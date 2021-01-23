@@ -1,0 +1,25 @@
+{
+  "name": "rabbl/slim-cqrs-es",
+  "description": "A CQRS-ES workshop with SLIM-Framework",
+  "type": "project",
+  "license": "MIT",
+  "minimum-stability": "stable",
+  "require": {
+    "php": "^7.4",
+    "ext-json": "*",
+    "slim/psr7": "^1.3",
+    "slim/slim": "~4.7.1",
+    "php-di/php-di": "^6.3",
+    "zircote/swagger-php": "^3.1",
+    "fakerphp/faker": "^1.13"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.3",
+    "spatie/ray": "^1.16"
+  },
+  "autoload": {
+    "psr-4": {
+      "": "src/"
+    }
+  }
+}
